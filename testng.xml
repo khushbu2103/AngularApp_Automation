@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/LENOVO/IdeaProjects/AngularApp_Automation">
+        <classes>
+            <class name="TestCases.HomePage_Test">
+                <methods>
+                    <include name="homePage"/>
+                    <include name="newArticle"/>
+                </methods>
+            </class>
+            <class name="TestCases.NewArticlePage_Test">
+                <methods>
+                    <include name="newArticlePageTest"/>
+                </methods>
+            </class>
+            <class name="TestCases.SignInPage_Test">
+                <methods>
+                    <include name="signPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
